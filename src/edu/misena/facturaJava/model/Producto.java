@@ -18,12 +18,6 @@ public class Producto {
         this.precio = precio;
     }
 
-    public String toString() {
-        return codigo +
-                "\t" + nombre +
-                "\t" + precio;
-    }
-
     public String getCodigo() {
         return codigo;
     }
@@ -47,4 +41,11 @@ public class Producto {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    public String toString() {
+        return codigo +
+                "\t" + nombre +
+                "\t" + precio;
+    }
+
 }

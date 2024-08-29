@@ -35,7 +35,7 @@ public class Main {
             System.out.print("Ingrese la cantidad: ");
             int cantidad = s.nextInt();
 
-            new ItemFactura(producto, cantidad);
+            factura.addItemFactura(new ItemFactura(producto, cantidad));
 
             System.out.println();
             s.nextLine();
